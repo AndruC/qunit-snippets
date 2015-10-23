@@ -36,7 +36,7 @@
 		{ "trigger": "QUnit: module", "contents": "QUnit.module('${1:name}', ${2:lifecycle});" },
 		{ "trigger": "QUnit: test", "contents": "QUnit.test('${1:name}', function(assert) {\n\t$0\n});" },
 		{ "trigger": "QUnit: skip", "contents": "QUnit.skip('${1:name}', function(assert) {\n\t$0\n});" },
-		{ "trigger": "QUnit: beginEach", "contents": "beginEach: function() {\n\t$0\n}" },
+		{ "trigger": "QUnit: beforeEach", "contents": "beforeEach: function() {\n\t$0\n}" },
 		{ "trigger": "QUnit: afterEach", "contents": "afterEach: function() {\n\t$0\n}" }
 
 	]
